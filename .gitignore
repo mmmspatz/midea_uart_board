@@ -1,0 +1,18 @@
+# KiCad-generated files and directories.
+.history/
+*-backups/
+_autosave-*
+fp-info-cache
+~*.lck
+*.kicad_prl
+
+# KiCad backup/lock artifacts
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.bak
+\#auto_saved_files\#
+
+# Editor / OS cruft
+*~
+.DS_Store
+Thumbs.db
