@@ -1,5 +1,5 @@
 Comment,Designator,Footprint,LCSC,Quantity
-100n,C5,C_0402_1005Metric,C1525,1
+100n,"C5,C6",C_0402_1005Metric,C1525,2
 10k,"R1,R4,R7,R8",R_0402_1005Metric,C25744,4
 10u,C3,C_0603_1608Metric,C19702,1
 1u,"C1,C2,C4",C_0402_1005Metric,C52923,3

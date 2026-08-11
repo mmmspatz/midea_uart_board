@@ -4057,19 +4057,13 @@
 		(at 135.89 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0b28a2c5-44b4-49fe-9a26-f8612de79307")
+		(uuid "0be2f440-adf6-4bcc-b779-970850a7e79e")
 	)
 	(junction
 		(at 55.88 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "14b4b613-db51-409b-b9db-34470a6ef014")
-	)
-	(junction
-		(at 144.78 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2025b969-95a5-4f54-a7d9-a507ce011d51")
 	)
 	(junction
 		(at 53.34 185.42)
@@ -4082,12 +4076,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "28c5a342-c57a-4f41-8d3e-9f39275f1809")
-	)
-	(junction
-		(at 135.89 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "34508a44-6389-428a-83c1-8c2ebb12b17a")
 	)
 	(junction
 		(at 38.1 53.34)
@@ -4305,6 +4293,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 125.73) (xy 226.06 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dc2a7e8-448d-49dd-8242-3d9a6a9995d2")
+	)
+	(wire
+		(pts
 			(xy 53.34 185.42) (xy 53.34 186.69)
 		)
 		(stroke
@@ -4335,7 +4333,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 36.83) (xy 144.78 36.83)
+			(xy 135.89 36.83) (xy 142.24 36.83)
 		)
 		(stroke
 			(width 0)
@@ -4415,6 +4413,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 114.3) (xy 237.49 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3db5fa6f-2de7-4fa4-ac63-7c556c435390")
+	)
+	(wire
+		(pts
 			(xy 73.66 82.55) (xy 76.2 82.55)
 		)
 		(stroke
@@ -4442,16 +4450,6 @@
 			(type default)
 		)
 		(uuid "42f7ad83-267f-4145-b8d8-f28b8b26c317")
-	)
-	(wire
-		(pts
-			(xy 144.78 36.83) (xy 144.78 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b7efd6f-155b-4384-ad5c-199206d42480")
 	)
 	(wire
 		(pts
@@ -4572,16 +4570,6 @@
 			(type default)
 		)
 		(uuid "6a9e1850-ce95-4a6e-be63-0a9956e8233c")
-	)
-	(wire
-		(pts
-			(xy 144.78 49.53) (xy 144.78 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6be8768c-d9e9-4050-919c-1d5e7f9e0161")
 	)
 	(wire
 		(pts
@@ -4945,6 +4933,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 114.3) (xy 226.06 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b26bb499-7266-484b-ade8-2e2685a8026b")
+	)
+	(wire
+		(pts
 			(xy 100.33 36.83) (xy 100.33 45.72)
 		)
 		(stroke
@@ -5015,6 +5013,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 125.73) (xy 237.49 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c90e0f67-cb5b-40a4-9b70-0dc354b207ad")
+	)
+	(wire
+		(pts
 			(xy 55.88 87.63) (xy 55.88 90.17)
 		)
 		(stroke
@@ -5022,16 +5030,6 @@
 			(type default)
 		)
 		(uuid "c981e4f8-2c84-4b4f-a0ff-b01935a393d6")
-	)
-	(wire
-		(pts
-			(xy 144.78 50.8) (xy 135.89 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbc7ccfc-6a8c-4a42-befa-3a7bde4e46f8")
 	)
 	(wire
 		(pts
@@ -5092,16 +5090,6 @@
 			(type default)
 		)
 		(uuid "d9aea81d-408e-49ac-9ab9-9385b666c529")
-	)
-	(wire
-		(pts
-			(xy 135.89 36.83) (xy 144.78 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da882f92-05a7-4f17-a0b8-a8bdac456dba")
 	)
 	(wire
 		(pts
@@ -5373,16 +5361,6 @@
 		)
 		(uuid "2303de22-05a9-4f5c-b066-1b4f6ae29557")
 	)
-	(label "BOOT"
-		(at 247.65 34.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3245b51b-4acc-430e-9f07-805ebb31e957")
-	)
 	(label "+5V_UART"
 		(at 262.89 114.3 90)
 		(effects
@@ -5413,7 +5391,7 @@
 		)
 		(uuid "4f7ea74a-640e-4077-b846-e340ec285dcd")
 	)
-	(label "BOOT"
+	(label "USER_BTN"
 		(at 200.66 109.22 0)
 		(effects
 			(font
@@ -5482,6 +5460,16 @@
 			(justify right bottom)
 		)
 		(uuid "a298f6f1-f9eb-4102-b5ef-1544dca243b7")
+	)
+	(label "USER_BTN"
+		(at 247.65 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a77881c7-2fd3-4a96-ae8c-4437a31d49ed")
 	)
 	(label "USB_P"
 		(at 200.66 93.98 0)
@@ -5592,6 +5580,16 @@
 			(justify left bottom)
 		)
 		(uuid "d529e115-2de9-45c0-b363-bb7f096519e9")
+	)
+	(label "+5V_UART"
+		(at 237.49 114.3 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "de2c47f8-296f-4234-aa48-eaf43bfafc53")
 	)
 	(label "STATUS_LED"
 		(at 199.39 132.08 0)
@@ -7497,6 +7495,162 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 237.49 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b3a6ea4-26ce-46fa-9120-2a772d320e01")
+		(property "Reference" "#PWR019"
+			(at 237.49 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 237.49 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 237.49 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ccd8c861-6a35-44f9-9dba-64adb4df3e4a")
+		)
+		(instances
+			(project "midea_dongle"
+				(path "/5ef52556-b241-4ec0-aa93-aee593a35416"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 226.06 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66ccd936-5323-426a-8028-9bc99f63804b")
+		(property "Reference" "#PWR021"
+			(at 226.06 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 226.06 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 226.06 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8bb91c09-45b3-470b-8e5a-17c637603b2d")
+		)
+		(instances
+			(project "midea_dongle"
+				(path "/5ef52556-b241-4ec0-aa93-aee593a35416"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 62.23 95.25 90)
 		(unit 1)
@@ -8008,7 +8162,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 147.32 36.83 270)
+		(at 142.24 36.83 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8019,7 +8173,7 @@
 		(fields_autoplaced yes)
 		(uuid "9d038221-89ad-4754-bce3-47949a3cad56")
 		(property "Reference" "#PWR06"
-			(at 143.51 36.83 0)
+			(at 138.43 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8030,7 +8184,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 151.13 36.8299 90)
+			(at 146.05 36.8299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8041,7 +8195,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 36.83 0)
+			(at 142.24 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8052,7 +8206,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 36.83 0)
+			(at 142.24 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8063,7 +8217,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 147.32 36.83 0)
+			(at 142.24 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8297,6 +8451,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 226.06 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "baa107ac-7071-4978-9a42-bc4240b4a114")
+		(property "Reference" "#PWR020"
+			(at 226.06 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 226.06 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 226.06 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1731bdb0-b01c-4d99-925a-eb8a9c69ca0a")
+		)
+		(instances
+			(project "midea_dongle"
+				(path "/5ef52556-b241-4ec0-aa93-aee593a35416"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Interface_UART:SP3485EN")
 		(at 53.34 167.64 0)
 		(unit 1)
@@ -8410,7 +8642,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 144.78 45.72 0)
+		(at 226.06 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8421,7 +8653,7 @@
 		(fields_autoplaced yes)
 		(uuid "c1a10723-ef71-44f1-a432-efe9193d0328")
 		(property "Reference" "C5"
-			(at 148.59 44.4499 0)
+			(at 229.87 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8432,7 +8664,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 148.59 46.9899 0)
+			(at 229.87 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8443,7 +8675,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 145.7452 49.53 0)
+			(at 227.0252 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8454,7 +8686,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 45.72 0)
+			(at 226.06 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8465,7 +8697,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 144.78 45.72 0)
+			(at 226.06 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8476,7 +8708,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 144.78 45.72 0)
+			(at 226.06 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8574,6 +8806,99 @@
 			(project "midea_dongle"
 				(path "/5ef52556-b241-4ec0-aa93-aee593a35416"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 237.49 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2d1a041-1fd1-402a-9113-58fd31e0bc66")
+		(property "Reference" "C6"
+			(at 241.3 119.3799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 241.3 121.9199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 238.4552 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 237.49 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 237.49 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6c8b65b0-993e-4dd8-92f0-b2c584f9e5bb")
+		)
+		(pin "2"
+			(uuid "8044e8cb-f3ec-4162-acd0-56b2a2fc2bde")
+		)
+		(instances
+			(project "midea_dongle"
+				(path "/5ef52556-b241-4ec0-aa93-aee593a35416"
+					(reference "C6")
 					(unit 1)
 				)
 			)

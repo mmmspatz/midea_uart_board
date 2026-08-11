@@ -2,8 +2,9 @@ Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 C1,1u,C_0402_1005Metric,131.25,-115.75,0.0,top
 C2,1u,C_0402_1005Metric,131.0,-110.5,0.0,top
 C3,10u,C_0603_1608Metric,127.0,-99.25,0.0,top
-C4,1u,C_0402_1005Metric,128.5,-107.5,0.0,top
+C4,1u,C_0402_1005Metric,128.75,-107.5,0.0,top
 C5,100n,C_0402_1005Metric,123.75,-109.75,180.0,top
+C6,100n,C_0402_1005Metric,126.02,-109.75,180.0,top
 D1,D_Schottky,D_SOD-123,128.5,-111.5,-90.0,top
 D2,D_Schottky,D_SOD-123,124.25,-108.0,180.0,top
 D3,LED,LED_0603_1608Metric,132.25,-118.0,-90.0,top
